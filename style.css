@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+a {color:black;
+}
+
+h1 {font-size:500%;
+text-align:center;
+border-bottom : 3px solid gray;
+margin:0;
+padding:40px;
+}
+#active{
+    color:red;
+}
+
+ol{
+    border-right:3px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+}
+#grid{
+display: grid;
+grid-template-columns: 150px 1fr;
+}
+#grid ol{
+padding-left: 33px;
+}
+#article{
+    padding:25px;
+}
+#grid{
+    display:block;
+}
+ol{
+    border-right:none;}
+h1{
+    border-bottom: none
+}
